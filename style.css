@@ -1,0 +1,185 @@
+body {
+margin: 0;
+font-family: 'Poppins', sans-serif;
+background-color: #bde0bd;
+}
+
+/* Header */
+header {
+background-color: #006837;
+color: white;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px 30px;
+}
+
+header img {
+height: 60px;
+}
+
+.btn-hubungi {
+background-color: white;
+color: #006837;
+border: none;
+padding: 8px 18px;
+border-radius: 8px;
+font-weight: 600;
+cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+text-align: center;
+padding: 30px 10px;
+}
+
+.hero h1 {
+color: #006837;
+font-size: 24px;
+font-weight: 800;
+}
+
+.hero h3 {
+font-size: 16px;
+color: #333;
+margin-bottom: 20px;
+}
+
+.hero img {
+width: 400px;
+border-radius: 10px;
+}
+
+/* Deskripsi */
+.deskripsi {
+max-width: 800px;
+margin: 20px auto;
+background-color: #ffffff;
+padding: 20px 30px;
+border-radius: 10px;
+box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.deskripsi h2 {
+color: #006837;
+margin-bottom: 10px;
+}
+
+.deskripsi ul {
+color: #000;
+line-height: 1.7;
+}
+
+/* Langkah-langkah */
+.langkah {
+text-align: center;
+margin-top: 40px;
+}
+
+.langkah h2 {
+color: #000;
+margin-bottom: 20px;
+}
+
+.langkah-container {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 20px;
+}
+
+.langkah-card {
+background-color: #eaf5ea;
+border: 2px solid #006837;
+border-radius: 10px;
+padding: 10px;
+width: 200px;
+}
+
+.langkah-card img {
+width: 100%;
+border-radius: 8px;
+}
+
+/* Ajakan (CTA) */
+.ajakan {
+text-align: center;
+background-color: #ffffff;
+margin: 40px auto;
+padding: 20px;
+border-radius: 10px;
+max-width: 700px;
+box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.ajakan h2 {
+color: #000;
+}
+
+.ajakan ul {
+text-align: left;
+display: inline-block;
+color: #000;
+line-height: 1.8;
+}
+
+.container {
+margin-top: 20px;
+grid-template-columns: 1fr 1fr 1fr;
+}
+
+.container .ul {
+  display: flex;
+  justify-content: flex-end; /* biar rata kanan */
+  list-style: none;
+  gap: 20px; /* jarak antar tombol */
+  padding: 0;
+  margin: 0;
+}
+
+.ul li a {
+  background-color: #d90429; /* warna merah seperti di gambar */
+  color: rgb(0, 0, 0);
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 700;
+  display: inline-block;
+}
+
+footer {
+background-color:  #006837;
+color: white;
+text-align: center;
+padding: 10PXP 10PX;
+font-size: 14px;
+}
+
+.tentang {
+margin: 10px 0;
+
+
+}
+
+.tentang .kami {
+  display: flex;
+  justify-content: center; /* biar rata kanan */
+  list-style: none;
+  gap: 20px; /* jarak antar tombol */
+  padding: 0;
+  margin: 0;  
+  text-decoration: none;
+}
+
+.tentang img {
+height: 24px;
+margin: 0 5px;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+.btn-hubungi a {
+  text-decoration: none;
+
+}
