@@ -49,16 +49,16 @@
       <div class="input-group">
         <i class="fas fa-user icon"></i>
         <input type="text" id="nama" placeholder="Username">
-        <label for="nama">Nama Lengkap</label>
+        <label for="nama">Username</label>
       </div>
 
       <div class="input-group">
         <i class="fab fa-whatsapp icon"></i>
         <input type="text" id="hp" placeholder="No Hendpont">
-        <label for="hp">No HP</label>
+        <label for="hp">Password</label>
       </div>
 
-      <button type="submit" class="btn">Antri</button>
+      <button type="submit" class="btn">Login</button>
     </form>
 
     <nav class="bottom-nav">
